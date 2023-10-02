@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widget_formatos/config/menu/menu_items.dart';
 import 'package:widget_formatos/presentation/screens/buttons/buttons_screens.dart';
 
@@ -49,10 +50,10 @@ class _CustomListTile extends StatelessWidget {
       title: Text(menuItem.title),
       subtitle: Text(menuItem.subTitle),
       onTap: () {
-        Navigator.of(context).push(MaterialPageRoute(builder:(context) => const ButtonsScreen()));
-        Navigator.pushNamed(context, menuItem.link);
+        //Navigator.of(context).push(MaterialPageRoute(builder:(context) => const ButtonsScreen()));
+        //Navigator.pushNamed(context, menuItem.link);
         //context.pushNamed(CardsScreen.name);
-        //context.push(menuItem.link);
+        context.push(menuItem.link);
       },
     );
   }
