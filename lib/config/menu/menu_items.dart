@@ -22,10 +22,18 @@ const appMenuItems = <MenuItem>[
     icon: Icons.smart_button_outlined
     ),
 
-    MenuItem(
+  MenuItem(
     title: 'Cards', 
     subTitle: 'A stylish container', 
     link: '/cards', 
     icon: Icons.credit_card
     ),
+
+  MenuItem(
+    title: 'Progress_Indicator', 
+    subTitle: 'General and controlled', 
+    link: '/progress', 
+    icon: Icons.refresh_rounded
+    ),
+
 ];
