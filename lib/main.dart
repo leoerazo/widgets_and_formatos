@@ -15,14 +15,14 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: AppTheme(selectedColor: 0).getTheme(),
       //Scaffold(
-        //appBar: AppBar(
-          //title: const Text('Material App Bar'),
-        //),
-        //body:  Center(
-          //child: FilledButton( //FilledButton: A box.
-            //child: const Text( // The box have a son inside. Is a text
-              //'Hello'), onPressed: (){},) 
-        //),
+      //appBar: AppBar(
+      //title: const Text('Material App Bar'),
+      //),
+      //body:  Center(
+      //child: FilledButton( //FilledButton: A box.
+      //child: const Text( // The box have a son inside. Is a text
+      //'Hello'), onPressed: (){},)
+      //),
       //),
     );
   }
